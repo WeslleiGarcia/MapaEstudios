@@ -9,5 +9,13 @@
 #import "BPDStudios.h"
 
 @implementation BPDStudios
+@dynamic id;
+@dynamic nome;
+@dynamic diaFuncionamento;
+@dynamic horaDisponivel;
+@dynamic valorHora;
 
+
+@dynamic latitude;
+@dynamic longitude;
 @end
