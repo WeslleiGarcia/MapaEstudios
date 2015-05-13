@@ -1,15 +1,14 @@
 //
 //  ViewController.m
-//  MapStudios
+//  BPDMaps
 //
 //  Created by Wesllei on 12/05/15.
 //  Copyright (c) 2015 Wesllei. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "BPDStudioStore.h"
-#import "BPDStudio.h"
-#import "Annotation.h"
+
+
 
 @interface ViewController ()
 

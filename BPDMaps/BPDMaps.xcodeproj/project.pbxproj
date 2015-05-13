@@ -15,6 +15,7 @@
 		C32DCACF1B03016100C2C29D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32DCACE1B03016100C2C29D /* Images.xcassets */; };
 		C32DCAD21B03016100C2C29D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32DCAD01B03016100C2C29D /* LaunchScreen.xib */; };
 		C32DCADE1B03016100C2C29D /* BPDMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCADD1B03016100C2C29D /* BPDMapsTests.m */; };
+		C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		C32DCAD71B03016100C2C29D /* BPDMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPDMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32DCADC1B03016100C2C29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32DCADD1B03016100C2C29D /* BPDMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDMapsTests.m; sourceTree = "<group>"; };
+		C3E2E5E21B0311F2009DCAF9 /* BPDStudios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStudios.h; sourceTree = "<group>"; };
+		C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStudios.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				C32DCAC31B03016100C2C29D /* AppDelegate.m */,
 				C32DCAC81B03016100C2C29D /* ViewController.h */,
 				C32DCAC91B03016100C2C29D /* ViewController.m */,
+				C3E2E5E21B0311F2009DCAF9 /* BPDStudios.h */,
+				C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */,
 				C32DCACB1B03016100C2C29D /* Main.storyboard */,
 				C32DCACE1B03016100C2C29D /* Images.xcassets */,
 				C32DCAD01B03016100C2C29D /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */,
 				C32DCAC41B03016100C2C29D /* AppDelegate.m in Sources */,
 				C32DCAC11B03016100C2C29D /* main.m in Sources */,
 				C32DCACA1B03016100C2C29D /* ViewController.m in Sources */,
