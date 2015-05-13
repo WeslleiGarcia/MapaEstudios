@@ -28,6 +28,9 @@
                                     <segment title="Satélite"/>
                                     <segment title="Híbrido"/>
                                 </segments>
+                                <connections>
+                                    <action selector="setMap:" destination="BYZ-38-t0r" eventType="valueChanged" id="G8q-bE-Cm0"/>
+                                </connections>
                             </segmentedControl>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qk-EW-Q7H">
                                 <rect key="frame" x="0.0" y="44" width="320" height="497"/>
@@ -50,6 +53,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="1qk-EW-Q7H" secondAttribute="trailing" constant="-16" id="zab-eA-ZMB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapview" destination="1qk-EW-Q7H" id="NNa-65-sP8"/>
+                        <outlet property="setSearchBar" destination="ZTV-4n-jIc" id="2bg-B8-GdG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
