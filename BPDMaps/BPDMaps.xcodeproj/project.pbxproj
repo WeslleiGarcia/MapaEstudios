@@ -18,6 +18,7 @@
 		C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */; };
 		C3E2E5E71B031287009DCAF9 /* BPDStudioStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */; };
 		C3E2E5EA1B031322009DCAF9 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E91B031322009DCAF9 /* Annotation.m */; };
+		C3E2E5EC1B031558009DCAF9 /* disco16px.ico in Resources */ = {isa = PBXBuildFile; fileRef = C3E2E5EB1B031558009DCAF9 /* disco16px.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStudioStore.m; sourceTree = "<group>"; };
 		C3E2E5E81B031322009DCAF9 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		C3E2E5E91B031322009DCAF9 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		C3E2E5EB1B031558009DCAF9 /* disco16px.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = disco16px.ico; path = ../../../../StudiosMaps/StudiosMaps/disco16px.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C3E2E5E91B031322009DCAF9 /* Annotation.m */,
 				C32DCACB1B03016100C2C29D /* Main.storyboard */,
 				C32DCACE1B03016100C2C29D /* Images.xcassets */,
+				C3E2E5EB1B031558009DCAF9 /* disco16px.ico */,
 				C32DCAD01B03016100C2C29D /* LaunchScreen.xib */,
 				C32DCAC51B03016100C2C29D /* BPDMaps.xcdatamodeld */,
 				C32DCABE1B03016100C2C29D /* Supporting Files */,
@@ -220,6 +223,7 @@
 				C32DCACD1B03016100C2C29D /* Main.storyboard in Resources */,
 				C32DCAD21B03016100C2C29D /* LaunchScreen.xib in Resources */,
 				C32DCACF1B03016100C2C29D /* Images.xcassets in Resources */,
+				C3E2E5EC1B031558009DCAF9 /* disco16px.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
