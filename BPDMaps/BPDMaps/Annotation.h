@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+@import  MapKit;
+@interface Annotation : NSObject<MKAnnotation>
 
-@interface Annotation : NSObject
+@property(nonatomic, assign)CLLocationCoordinate2D coordinate;
+@property(nonatomic, copy) NSString *title;
+@property(nonatomic, copy) NSString *subtitle;
 
 @end
