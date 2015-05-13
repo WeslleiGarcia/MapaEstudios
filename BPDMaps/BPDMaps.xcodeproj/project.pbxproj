@@ -16,6 +16,7 @@
 		C32DCAD21B03016100C2C29D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32DCAD01B03016100C2C29D /* LaunchScreen.xib */; };
 		C32DCADE1B03016100C2C29D /* BPDMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCADD1B03016100C2C29D /* BPDMapsTests.m */; };
 		C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */; };
+		C3E2E5E71B031287009DCAF9 /* BPDStudioStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		C32DCADD1B03016100C2C29D /* BPDMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDMapsTests.m; sourceTree = "<group>"; };
 		C3E2E5E21B0311F2009DCAF9 /* BPDStudios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStudios.h; sourceTree = "<group>"; };
 		C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStudios.m; sourceTree = "<group>"; };
+		C3E2E5E51B031287009DCAF9 /* BPDStudioStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStudioStore.h; sourceTree = "<group>"; };
+		C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStudioStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				C32DCAC91B03016100C2C29D /* ViewController.m */,
 				C3E2E5E21B0311F2009DCAF9 /* BPDStudios.h */,
 				C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */,
+				C3E2E5E51B031287009DCAF9 /* BPDStudioStore.h */,
+				C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */,
 				C32DCACB1B03016100C2C29D /* Main.storyboard */,
 				C32DCACE1B03016100C2C29D /* Images.xcassets */,
 				C32DCAD01B03016100C2C29D /* LaunchScreen.xib */,
@@ -229,6 +234,7 @@
 			files = (
 				C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */,
 				C32DCAC41B03016100C2C29D /* AppDelegate.m in Sources */,
+				C3E2E5E71B031287009DCAF9 /* BPDStudioStore.m in Sources */,
 				C32DCAC11B03016100C2C29D /* main.m in Sources */,
 				C32DCACA1B03016100C2C29D /* ViewController.m in Sources */,
 				C32DCAC71B03016100C2C29D /* BPDMaps.xcdatamodeld in Sources */,
