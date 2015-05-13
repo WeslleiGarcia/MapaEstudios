@@ -15,9 +15,6 @@
 		C32DCACF1B03016100C2C29D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32DCACE1B03016100C2C29D /* Images.xcassets */; };
 		C32DCAD21B03016100C2C29D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32DCAD01B03016100C2C29D /* LaunchScreen.xib */; };
 		C32DCADE1B03016100C2C29D /* BPDMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCADD1B03016100C2C29D /* BPDMapsTests.m */; };
-		C32DCAEB1B03021900C2C29D /* BPDStudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCAE81B03021900C2C29D /* BPDStudio.m */; };
-		C32DCAEC1B03021900C2C29D /* BPDStudioStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCAEA1B03021900C2C29D /* BPDStudioStore.m */; };
-		C32DCAEF1B0304DA00C2C29D /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCAEE1B0304DA00C2C29D /* Annotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +42,6 @@
 		C32DCAD71B03016100C2C29D /* BPDMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPDMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32DCADC1B03016100C2C29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32DCADD1B03016100C2C29D /* BPDMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDMapsTests.m; sourceTree = "<group>"; };
-		C32DCAE71B03021900C2C29D /* BPDStudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDStudio.h; path = ../../../MapStudios/MapStudios/BPDStudio.h; sourceTree = "<group>"; };
-		C32DCAE81B03021900C2C29D /* BPDStudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDStudio.m; path = ../../../MapStudios/MapStudios/BPDStudio.m; sourceTree = "<group>"; };
-		C32DCAE91B03021900C2C29D /* BPDStudioStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDStudioStore.h; path = ../../../MapStudios/MapStudios/BPDStudioStore.h; sourceTree = "<group>"; };
-		C32DCAEA1B03021900C2C29D /* BPDStudioStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDStudioStore.m; path = ../../../MapStudios/MapStudios/BPDStudioStore.m; sourceTree = "<group>"; };
-		C32DCAED1B0304DA00C2C29D /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Annotation.h; path = ../../../../../Downloads/MapKit/MapKit/Annotation.h; sourceTree = "<group>"; };
-		C32DCAEE1B0304DA00C2C29D /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Annotation.m; path = ../../../../../Downloads/MapKit/MapKit/Annotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +87,6 @@
 				C32DCAC31B03016100C2C29D /* AppDelegate.m */,
 				C32DCAC81B03016100C2C29D /* ViewController.h */,
 				C32DCAC91B03016100C2C29D /* ViewController.m */,
-				C32DCAED1B0304DA00C2C29D /* Annotation.h */,
-				C32DCAEE1B0304DA00C2C29D /* Annotation.m */,
-				C32DCAE71B03021900C2C29D /* BPDStudio.h */,
-				C32DCAE81B03021900C2C29D /* BPDStudio.m */,
-				C32DCAE91B03021900C2C29D /* BPDStudioStore.h */,
-				C32DCAEA1B03021900C2C29D /* BPDStudioStore.m */,
 				C32DCACB1B03016100C2C29D /* Main.storyboard */,
 				C32DCACE1B03016100C2C29D /* Images.xcassets */,
 				C32DCAD01B03016100C2C29D /* LaunchScreen.xib */,
@@ -239,11 +224,8 @@
 			files = (
 				C32DCAC41B03016100C2C29D /* AppDelegate.m in Sources */,
 				C32DCAC11B03016100C2C29D /* main.m in Sources */,
-				C32DCAEC1B03021900C2C29D /* BPDStudioStore.m in Sources */,
-				C32DCAEF1B0304DA00C2C29D /* Annotation.m in Sources */,
 				C32DCACA1B03016100C2C29D /* ViewController.m in Sources */,
 				C32DCAC71B03016100C2C29D /* BPDMaps.xcdatamodeld in Sources */,
-				C32DCAEB1B03021900C2C29D /* BPDStudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +422,7 @@
 				C32DCAE31B03016100C2C29D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32DCAE41B03016100C2C29D /* Build configuration list for PBXNativeTarget "BPDMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +431,7 @@
 				C32DCAE61B03016100C2C29D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
