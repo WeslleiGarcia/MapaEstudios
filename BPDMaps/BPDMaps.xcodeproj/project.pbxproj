@@ -15,6 +15,9 @@
 		C32DCACF1B03016100C2C29D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32DCACE1B03016100C2C29D /* Images.xcassets */; };
 		C32DCAD21B03016100C2C29D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32DCAD01B03016100C2C29D /* LaunchScreen.xib */; };
 		C32DCADE1B03016100C2C29D /* BPDMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DCADD1B03016100C2C29D /* BPDMapsTests.m */; };
+		C3880B941B0317C700E360EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3880B931B0317C700E360EF /* MapKit.framework */; };
+		C3880B961B0317D000E360EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3880B951B0317D000E360EF /* CoreGraphics.framework */; };
+		C3880B981B0317D600E360EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3880B971B0317D600E360EF /* CoreLocation.framework */; };
 		C3E2E5E41B0311F2009DCAF9 /* BPDStudios.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */; };
 		C3E2E5E71B031287009DCAF9 /* BPDStudioStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E61B031287009DCAF9 /* BPDStudioStore.m */; };
 		C3E2E5EA1B031322009DCAF9 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2E5E91B031322009DCAF9 /* Annotation.m */; };
@@ -46,6 +49,9 @@
 		C32DCAD71B03016100C2C29D /* BPDMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPDMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32DCADC1B03016100C2C29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32DCADD1B03016100C2C29D /* BPDMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDMapsTests.m; sourceTree = "<group>"; };
+		C3880B931B0317C700E360EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C3880B951B0317D000E360EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3880B971B0317D600E360EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C3E2E5E21B0311F2009DCAF9 /* BPDStudios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStudios.h; sourceTree = "<group>"; };
 		C3E2E5E31B0311F2009DCAF9 /* BPDStudios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStudios.m; sourceTree = "<group>"; };
 		C3E2E5E51B031287009DCAF9 /* BPDStudioStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStudioStore.h; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3880B981B0317D600E360EF /* CoreLocation.framework in Frameworks */,
+				C3880B961B0317D000E360EF /* CoreGraphics.framework in Frameworks */,
+				C3880B941B0317C700E360EF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,9 @@
 		C32DCAB21B03016100C2C29D = {
 			isa = PBXGroup;
 			children = (
+				C3880B971B0317D600E360EF /* CoreLocation.framework */,
+				C3880B951B0317D000E360EF /* CoreGraphics.framework */,
+				C3880B931B0317C700E360EF /* MapKit.framework */,
 				C32DCABD1B03016100C2C29D /* BPDMaps */,
 				C32DCADA1B03016100C2C29D /* BPDMapsTests */,
 				C32DCABC1B03016100C2C29D /* Products */,
